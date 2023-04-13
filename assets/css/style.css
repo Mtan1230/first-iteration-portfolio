@@ -1,0 +1,67 @@
+/* CSS variables */
+:root {
+    --dark: #445877;
+    --light: #92CCCE;
+}
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--dark);
+    background-color: a#EEEEF7;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark);
+}
+
+header h1 {
+    font-size: 50px;
+    background-color: var(--light);
+    margin: 10px 0;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+header nav {
+    margin: 10px 40px 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul li {
+    padding: 10px 10px;
+}
+
+header nav ul li a {
+    font-size: 25px;
+    color: var(--light);
+    text-decoration: none;
+    border-bottom: #92CCCE solid 3px;
+    padding: 0 5px;
+}
+
+
+
+
+/* Media Query */
+@media screen and (max-width: 992px) {
+    header, 
+    ul {
+        flex-direction: column;
+    }
+}
