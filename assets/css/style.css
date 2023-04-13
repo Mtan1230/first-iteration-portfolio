@@ -65,6 +65,7 @@ header nav ul li a {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-bottom: 20px;
 }
 
 #subtitle {
@@ -77,11 +78,50 @@ header nav ul li a {
     padding: 5px;
 }
 
+/* Content */
+.content {
+    display: flex;
+}
+
+.content h3 {
+    font-size: 60px;
+    text-align: right;
+    width: 20%;
+    border-right: var(--dark) solid 5px;
+    padding: 10px;
+}
+
+.content article {
+    margin: 0 30px;
+    display: flex;
+    width: 80%;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.content p {
+    margin: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px;
+}
 
 /* Media Query */
 @media screen and (max-width: 992px) {
     header, 
     ul {
         flex-direction: column;
+    }
+    #avatar,
+    h3 {
+        display: none;
+    }
+    article {
+        width: 100%;
     }
 }
