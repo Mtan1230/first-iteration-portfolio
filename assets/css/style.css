@@ -4,6 +4,10 @@
     --light: #92CCCE;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Body */
 body {
     position: relative;
