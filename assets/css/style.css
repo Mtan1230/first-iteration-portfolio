@@ -246,6 +246,10 @@ h5 {
         margin-left: 0;
     }  
 
+    #about-me article {
+        flex-direction: column;
+    }
+
     .top {
         min-height: 35vh;
     }
@@ -261,10 +265,6 @@ h5 {
 
 @media screen and (max-width: 576px) {
     header nav ul {
-        flex-direction: column;
-    }
-
-    #about-me article {
         flex-direction: column;
     }
 
