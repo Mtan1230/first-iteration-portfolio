@@ -1,14 +1,13 @@
-# Portfolio
+# Basic Portfolio
 
 ## Description
-This application is the first iteration of my portfolio website, only used HTML and CSS.
+This is the first iteration of my portfolio website, used only basic HTML and CSS. It's including my biographical information, projects, and contact information.
 
-## Deployed
+## Links
 Page published at https://mtan1230.github.io/first-iteration-portfolio/
 
 ## Screenshot
-
-![Michael Tan's Portfolio](./assets/images/screencapture.png)
+![Michael Tan's Portfolio](./assets/images/screencap.png)
 
 ## Credits
 Pattern designed and provided by Columbia Coding Bootcamp.
