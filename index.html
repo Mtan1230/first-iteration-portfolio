@@ -10,8 +10,6 @@
 </head>
 
 <!-- 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
 WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
@@ -32,11 +30,11 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
         </nav>
     </header>
     
-    <main>
-        <section id="banner">
-            <h2 id="subtitle">Designing the future, one pixel at a time</h2>
-        </section>
+    <section id="banner">
+        <h2 id="subtitle">Designing the future, one pixel at a time</h2>
+    </section>
 
+    <main>
         <section id="about-me" class="content">
             <h3>About<br>Me</h3>
             <article>
@@ -51,58 +49,54 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
         <section id="work" class="content">
             <h3>Work</h3>
             <div class="cards">
-                <div class="card project-top">
-                    <div class="card-title" >
-                        <h4 class="project-name">Horiseon</h4>
-                        <p class="project-intro">Code-Refactor</p>
+                <a class="card top" href="https://mtan1230.github.io/javascript-code-quiz/">
+                    <div class="names">
+                        <h4>JavaScript Code Quiz</h4>
+                        <h5>JavaScript/HTML/CSS</h5>
                     </div>
-                    <a href="https://github.com/Mtan1230/horiseon-code-refactor">
-                        <img src="./assets/images/project-top.jpg" alt="Horiseon Code Refactor">
-                    </a>
-                </div>
-                <div class="card">
-                    <div class="card-title">
-                        <h4 class="project-name">Coming soon</h4>
-                        <p class="project-intro"></p>
+                </a>
+
+                <a class="card left-1" href="https://mtan1230.github.io/password-generator/">
+                    <div class="names">
+                        <h4>Password Generator</h4>
+                        <h5>JavaScript/HTML/CSS</h5>
                     </div>
-                    <img src="./assets/images/project-left-1.jpg" alt="" class="float-left">
-                </div>
-                <div class="card">
-                    <div class="card-title">
-                        <h4 class="project-name">Coming soon</h4>
-                        <p class="project-intro"></p>
+                </a>
+
+                <a class="card right-1" href="https://mtan1230.github.io/horiseon-code-refactor/">
+                    <div class="names">
+                        <h4>Horiseon</h4>
+                        <h5>Code Refactor</h5>
                     </div>
-                    <img src="./assets/images/project-right-1.jpg" alt="" class="float-right">
-                </div>
-                <div class="card">
-                    <div class="card-title">
-                        <h4 class="project-name">Coming soon</h4>
-                        <p class="project-intro"></p>
+                </a>
+
+                <a class="card left-2" href="">
+                    <div class="names">
+                        <h4>Coming soon</h4>
+                        <h5></h5>
                     </div>
-                    <img src="./assets/images/project-left-2.jpg" alt="" class="float-left">
-                </div>
-                <div class="card">
-                    <div class="card-title">
-                        <h4 class="project-name">Coming soon</h4>
-                        <p class="project-intro"></p>
+                </a>
+
+                <a class="card right-2" href="">
+                    <div class="names">
+                        <h4>Coming soon</h4>
+                        <h5></h5>
                     </div>
-                    <img src="./assets/images/project-right-2.jpg" alt="" class="float-right">
-                </div>
+                </a>
             </div>
         </section>
 
         <section id="contact-me" class="content">
             <h3>Contact<br>Me</h3>
-            <div>
+            <div class="contact-info">
                 <ul>
                     <li><a href="">555.555.5555</a></li>
-                    <li><a href="emailto: m.tan1230@gmail.com">m.tan1230@gmail.com</a></li>
+                    <li><a href="mailto:m.tan1230@gmail.com">m.tan1230@gmail.com</a></li>
                     <li><a href="https://github.com/Mtan1230">Github</a></li>
                     <li><a href="">LinkedIn</a></li>
                 </ul>
             </div>
         </section>
-
     </main>
 
 </body>
